@@ -46,9 +46,7 @@
   let userLocation = [];
   const apiKey = "QCbtwJjYBCNXTirCzTcI";
 
-  // Initialize the map
 
-   
   // Add the OpenStreetMap tiles
   var osm = L.tileLayer(
     `https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${apiKey}`,
@@ -117,8 +115,6 @@
       console.log(layer);
     });
   });
-
-  //  L.Control.geocoder([-4.9077,35.7729]).addTo(map);
 
    var geocoder = L.Control.geocoder().addTo(map);
   geocoder.on("markgeocode", function (e) {

@@ -1,4 +1,4 @@
-# MapAPROS
+# Map-APROS
 # Simple Web Map with Leaflet
 
 This project creates a simple interactive web map using [Leaflet](https://leafletjs.com/). It allows users to create, edit, and delete map features (such as points, lines, and areas), add multi-line text to those features, and search for text within the map.

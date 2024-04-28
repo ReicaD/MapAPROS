@@ -41,7 +41,6 @@
   href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
 />
 <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
-
 <script>
   // access user location
   let userLocation = [];
@@ -69,8 +68,8 @@
   var drawnFeatures = new L.FeatureGroup();
   map.addLayer(drawnFeatures);
 
+  // position: "topright",
   var drawControl = new L.Control.Draw({
-    // position: "topright",
     edit: {
       featureGroup: drawnFeatures,
       remove: false,
